@@ -1,7 +1,7 @@
-# Utilities to program the pawn language
+# Utilities to program the pawn language ![image save](https://i.imgur.com/u3YscMK.png)
 ## Some utilities to facilitate your daily programming
 
-# How to use
+# How to use 
  Note: if any utility does not work correctly contact me
 
 ## GetDate()
@@ -63,7 +63,8 @@ CMD:cnn(playerid, params[])
 } 
 ```
 
-# Contributors
+
+# Contributors ![Image de um script](https://i.imgur.com/btQoQY9.png?1) 
 ## leonsx *(by include)*
 ## Calenzo *(TextConverter)*
 ## Y_Less *(randomEx)*
