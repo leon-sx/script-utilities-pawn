@@ -40,7 +40,7 @@ SendClientMessageEx(playerid, -1, "O meu nome é %s.", Nome(playerid));
 ```
 
 ## Nome(playerid)
-# note: is being used in the ShowPlayerDialogEx and SendClientMessageEx example
+note: is being used in the ShowPlayerDialogEx and SendClientMessageEx example
 
 ## TextConverter(string[])
 # note: in the script is being used to include zcmd
@@ -63,6 +63,11 @@ CMD:cnn(playerid, params[])
 } 
 ```
 
+## randomEx(minnum = cellmin, maxnum = cellmax)
+```pawn
+new Money = randomEx(100, 800);
+GivePlayerMoney(playerid, Dinheiro);
+```
 
 # Contributors ![Image de um script](https://i.imgur.com/btQoQY9.png?1) 
 ## leonsx *(by include)*
