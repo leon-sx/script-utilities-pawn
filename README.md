@@ -2,7 +2,7 @@
 ## Some utilities to facilitate your daily programming
 
 # How to use
-## Note: if any utility does not work correctly contact me
+ Note: if any utility does not work correctly contact me
 
 ## GetDate()
 ```pawn
