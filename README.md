@@ -9,16 +9,19 @@
   new string[200];
   format(string, 200, "Date: %s", GetDate());
 ```
+
 ## GetHour()
 ```pawn
   new string[200];
   format(string, 200, "Hour: %s", GetHour());
 ```
+
 ## VehicleHealth(playerid)
 ```pawn
   new string[200];
   format(string, 200, "Vehicle Health: %s", VehicleHealth(playerid));
 ```
+
 ## PlayerArmour(playerid)
 ```pawn
   new string[200];
@@ -37,11 +40,10 @@ SendClientMessageEx(playerid, -1, "O meu nome é %s.", Nome(playerid));
 ```
 
 ## Nome(playerid)
-```pawn
-note: is being used in the ShowPlayerDialogEx and SendClientMessageEx example
-```
+# note: is being used in the ShowPlayerDialogEx and SendClientMessageEx example
 
 ## TextConverter(string[])
+# note: in the script is being used to include zcmd
 ```pawn
 CMD:cnn(playerid, params[])
 {
@@ -59,11 +61,10 @@ CMD:cnn(playerid, params[])
     GameTextForPlayer(playerid, String, 3000, 2);
     return 1;
 } 
-note: in the script is being used to include zcmd
 ```
 
 # Contributors
-## leonsx *(fully include)*
+## leonsx *(by include)*
 ## Calenzo *(TextConverter)*
 ## Y_Less *(randomEx)*
 ## Vision Team and Portal Samp *(most utilities taken from there)*
