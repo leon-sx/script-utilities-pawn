@@ -66,5 +66,4 @@ note: in the script is being used to include zcmd
 ## leonsx *(fully include)*
 ## Calenzo *(TextConverter)*
 ## Y_Less *(randomEx)*
-## Portal Samp *(most of the utilities removed from there)*
-## Vision Tem *(most of the utilities removed from there)*
+## Vision Team and Portal Samp *(most utilities taken from there)*
