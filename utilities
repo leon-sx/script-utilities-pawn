@@ -1,4 +1,3 @@
-```pawn
 /*
  * Contributors:
  *  leonsx (by include)
@@ -105,5 +104,4 @@ TextConverter(string[])
 }
 
 stock randomEx(minnum = cellmin, maxnum = cellmax)
-    return random(maxnum - minnum + 1) + minnum;// by 
-```
+    return random(maxnum - minnum + 1) + minnum;
