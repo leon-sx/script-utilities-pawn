@@ -25,7 +25,7 @@
 ## PlayerArmour(playerid)
 ```pawn
   new string[200];
-  format(string, 200, "Armour Health: %.1f", VehicleHealth(playerid));
+  format(string, 200, "Armour Health: %.1f", PlayerArmour(playerid));
 ```
 
 ## ShowPlayerDialogEx(playerid, dialogid, style, caption[], info[], string[], button1[], button2[])
