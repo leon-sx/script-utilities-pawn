@@ -101,7 +101,7 @@ TextConverter(string[])
         if(strfind(string, "ô", true) != -1){new pos = strfind(string, "ô", true); strdel(string, pos, pos+strlen("ô")); strins(string, "§", pos, sizeof(pos));}
     }
     return 1;
-}
+} 
 
 stock randomEx(minnum = cellmin, maxnum = cellmax)
     return random(maxnum - minnum + 1) + minnum;// by 
